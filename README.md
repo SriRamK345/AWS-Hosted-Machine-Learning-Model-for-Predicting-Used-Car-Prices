@@ -20,7 +20,7 @@ This project uses machine learning models to estimate the prices of used cars li
 
 ## Dataset
 
-The dataset used is the "Craigslist Carstrucks Data" available on Kaggle. You can download it from: [Add link to the dataset here]
+The dataset used is the "Craigslist Carstrucks Data" available on Kaggle. You can download it from: [https://www.kaggle.com/datasets/austinreese/craigslist-carstrucks-data]
 
 **Dataset Features:**
 - **price:** The price of the car.
@@ -68,9 +68,9 @@ The following models are trained and evaluated:
 
 The models are evaluated using the R-squared score on the test set. The R-squared score measures the proportion of variance in the target variable (price) explained by the model. A higher R-squared score indicates a better fit.
 
-- **XGBRegressor:** Achieved an R-squared score of [0.72].
-- **RandomForestRegressor:** Achieved an R-squared score of [0.92].
-- **GradientBoostingRegressor:** Achieved an R-squared score of [.68].
+- **XGBRegressor:** Achieved an R-squared score of [0.69].
+- **RandomForestRegressor:** Achieved an R-squared score of [0.80].
+- **GradientBoostingRegressor:** Achieved an R-squared score of [.63].
 
 Permutation Feature Importance is also calculated to determine the relative importance of each feature in the model's predictions. 
 
