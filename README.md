@@ -10,9 +10,7 @@ This project aims to predict the price of used cars listed on Craigslist using m
 - [Model Training](#model-training)
 - [Evaluation](#evaluation)
 - [Usage](#usage)
-- [Contributing](#contributing)
-- [License](#license)
-
+- [Deployment](#Deployment)
 
 ## Project Overview
 
@@ -82,3 +80,8 @@ To use this project, follow these steps:
 2. **Install dependencies:** `pip install -r requirements.txt`
 3. **Download the dataset:** Download the "Craigslist Carstrucks Data" from Kaggle and place it in the `data` directory.
 4. **Run the notebook:** Open and run the Jupyter notebook `Used Vehicle price prediction.ipynb` to train and evaluate the models.
+
+## Deployment
+
+The model is currently deployed on an AWS EC2 instance and can be accessed via Streamlit at the following URL:
+[http://51.20.251.231:8501]
