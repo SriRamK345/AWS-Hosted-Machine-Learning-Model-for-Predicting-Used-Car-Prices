@@ -1,4 +1,4 @@
-# Craigslist Used Vehicle Price Prediction
+# AWS-Hosted-Machine-Learning-Model-for-Predicting-Used-Car-Prices
 
 This project aims to predict the price of used cars listed on Craigslist using machine learning. 
 
